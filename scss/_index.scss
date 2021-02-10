@@ -1,0 +1,106 @@
+#carouselExampleCaptions{
+    height: 460px;
+    width: 900px;
+      
+ 
+    img{
+        height: 500px;
+        width: 1000px;
+        padding: 40px;
+        align-content: center;
+    
+    
+
+
+  
+        h5{
+            font-size: 30px;
+            text-shadow: 0.1em 0.1em 0.05em #333;
+        
+    
+            p {
+            text-shadow: 0.1em 0.1em 0.05em #333;
+            }
+        }
+    }  
+
+}
+
+.SeccionNoticias{
+    display: inline-flex;
+
+
+
+    h2{
+        text-align: start;
+        margin-top: 5px;
+
+    }
+}
+
+.DivInicio1 {
+    border: groove;
+    border-style: groove  black;
+    display: inline-block;
+    padding: 5px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    flex-direction: row;
+    
+
+}
+
+.DivInicio1__fotoRM{
+    width: 200px;
+    height: 150px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.DivInicio2{
+    border: groove;
+    border-style: groove  black;
+    display: inline-block;
+    padding: 5px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    justify-content: space-between;
+    
+    
+}
+
+    .DivInicio2__tituloVardy{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    
+.DivInicio3{
+    border: groove;
+    border-style: groove  black;
+    display: inline-block;
+    padding: 5px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    justify-content: space-between;
+    
+    
+}
+
+    .DivInicio3__salahFoto{
+        width: 200px;
+        height: 150px;
+        overflow: hidden;
+        display: inline-block;
+    }
+
+
+.barcelonaIndex{
+    margin: 10px 10px 5px 5px;
+}
+
+.noti-seccion{
+    text-align: start;
+}

@@ -1,0 +1,65 @@
+
+
+.bodyOp{
+    margin-top: 80px;
+}
+
+.tituloOpinion {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+.titulo-op{
+    margin-top: 30px;
+    color: #f1f1f1;
+    background-image: linear-gradient(to right,#8f1d14, #f1f1f1);
+}
+
+.contenedorOpinion {
+    display: grid;
+    background-color: none;
+    padding: 1em;
+    grid-template-rows: 400px 400px;
+    gap: 160px;
+    justify-content: space-around;
+    margin-top: 40px;
+    align-items: start;
+
+
+    a{
+        text-decoration: none;
+        color: black;
+    }
+}
+
+.contenedorOp1{
+    border: 1px solid;
+    text-align: center;
+    
+
+
+    img{
+        width: 220px;
+        height: 180px;
+    }
+}
+
+.contenedorOp2{
+    border: 1px solid;
+    text-align: center;
+    
+
+
+    img{
+        width: 240px;
+        height: 150px;
+        margin-top: 5px;
+        
+
+    }
+}
+
+.contenedorOp1:hover, .contenedorOp2:hover{
+    border: 1px solid #8f1d14;
+}
