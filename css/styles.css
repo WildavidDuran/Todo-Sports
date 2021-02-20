@@ -3,27 +3,52 @@
   padding: 0; }
 
 body {
-  background-color: #f1f1f1;
+  background-color: #cfd8dc;
   font-size: 80.5%; }
 
 header {
   margin: 0px;
   width: 100%;
   height: 600px;
-  background: #333333;
+  background: #304352;
   /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, rgba(220, 24, 24, 0.486), rgba(51, 51, 51, 0.726)), url("/image/header.jpg");
-  background: linear-gradient(to right, rgba(220, 24, 24, 0.63), rgba(51, 51, 51, 0.644)), url(../image/header.jpg);
+  background: -webkit-linear-gradient(to right, rgba(215, 210, 204, 0.616), rgba(47, 66, 80, 0.644)), url(../image/header.jpg);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, rgba(215, 210, 204, 0.616), rgba(47, 66, 80, 0.644)), url(../image/header.jpg);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-size: cover;
   background-position-x: 100%;
-  background-position-y: 100%; }
+  background-position-y: 100%;
+  background-attachment: fixed;
+  position: relative; }
+
+.textos-header {
+  display: flex;
+  height: 430px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center; }
+  .textos-header h1 {
+    font-size: 50px;
+    color: #fff; }
+
+.textos-header h2 {
+  font-size: 30px;
+  font-weight: 300;
+  color: white; }
 
 .todoSports {
   font-family: 'Raleway', sans-serif;
   color: black;
   padding-block: 20px;
   margin: 10px; }
+
+.wave {
+  position: absolute;
+  bottom: 0;
+  width: 100%; }
 
 /*
 .container-menu{
@@ -60,6 +85,8 @@ footer {
   display: flex;
   /*los elementos se colocan uno al lado del otro*/
   justify-content: space-between; }
+  .container-body p {
+    font-size: 100%; }
 
 .column-footer1 {
   max-width: 400px; }
@@ -75,15 +102,15 @@ footer {
 .column-footer2 h1 {
   font-size: 22px; }
 
-.row {
+.row1 {
   margin-top: 20px;
   display: flex; }
 
-.row img {
-  width: 36px;
-  height: 36px; }
+.row1 img {
+  width: 40px;
+  height: 40px; }
 
-.row label {
+.row1 label {
   margin-top: 10px;
   margin-left: 20px;
   color: #c7c7c7; }
@@ -202,9 +229,6 @@ footer {
 
 .noti-seccion {
   text-align: start; }
-
-.bodyOp {
-  margin-top: 80px; }
 
 .tituloOpinion {
   color: white;
@@ -348,9 +372,6 @@ footer {
     color: black; }
   .menu ul {
     flex-direction: column; } }
-
-.bodyContacto {
-  margin-top: 30px; }
 
 .mainContacto {
   margin-top: 60px; }

@@ -2,14 +2,39 @@ header{
     margin: 0px;
     width: 100%;
     height: 600px;
-    background: #333333;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, hsla(0, 80%, 48%, 0.486), hsla(0, 0%, 20%, 0.726)), url('/image/header.jpg'); 
-    background: linear-gradient(to right, hsla(0, 80%, 48%, 0.63), hsla(0, 0%, 20%, 0.644)), url(../image/header.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #304352;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(33, 12%, 82%, 0.616), hsla(206, 26%, 25%, 0.644)), url(../image/header.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, hsla(33, 12%, 82%, 0.616), hsla(206, 26%, 25%, 0.644)), url(../image/header.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: cover;
     background-position-x: 100%;
     background-position-y: 100%;
+    background-attachment: fixed;
+    position: relative;
        
    
+}
+
+.textos-header{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+    h1{
+        font-size: 50px;
+        color: #fff;
+        
+        
+    }
+}
+
+.textos-header h2{
+    font-size: 30px;
+    font-weight: 300;
+    color: white;
 }
 
 .todoSports{
@@ -18,6 +43,14 @@ header{
     padding-block: 20px;
     margin: 10px
 
+}
+
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    
+    
 }
 
 

@@ -16,6 +16,9 @@ footer{
 .container-body{
     display: flex; /*los elementos se colocan uno al lado del otro*/
     justify-content: space-between;
+        p{
+            font-size: 100%;
+        }
 }
 
 .column-footer1{
@@ -42,17 +45,19 @@ footer{
     
 }
 
-.row{
+.row1{
     margin-top: 20px;
     display: flex;
 }
+
             
-.row img{
-        width: 36px;
-        height: 36px;
+.row1 img{
+        width: 40px;
+        height: 40px;
+    
 }
     
-.row label {
+.row1 label {
    margin-top: 10px;
     margin-left: 20px;
     color: #c7c7c7
