@@ -163,10 +163,7 @@ footer {
   height: 460px;
   width: 900px; }
   #carouselExampleCaptions img {
-    height: 500px;
-    width: 1000px;
-    padding: 40px;
-    align-content: center; }
+    height: 500px; }
     #carouselExampleCaptions img h5 {
       font-size: 30px;
       text-shadow: 0.1em 0.1em 0.05em #333; }
@@ -224,9 +221,6 @@ footer {
   overflow: hidden;
   display: inline-block; }
 
-.barcelonaIndex {
-  margin: 10px 10px 5px 5px; }
-
 .noti-seccion {
   text-align: start; }
 
@@ -265,13 +259,9 @@ p a:hover {
       overflow: hidden; }
 
 /*======FOTOS Y VIDEOS DE NOTICIAS=======*/
-.contenedorBeisbol__manyRamirez {
-  margin: 30px; }
-
 .contenedorBeisbol__blake {
-  width: 200px;
-  height: 150px;
-  margin: 30px; }
+  width: 270px;
+  height: 200px; }
 
 .contenedorBasquet {
   display: grid;
@@ -307,9 +297,14 @@ p a:hover {
   width: 100%;
   height: 100%; }
 
-.tenis img {
-  width: 100px;
-  height: 60px; }
+.deportes-tenis {
+  width: 300px;
+  height: 300px; }
+
+.imgTenis {
+  width: 260px;
+  height: 200px;
+  margin: 30px; }
 
 .table th {
   border: solid 2px;
