@@ -32,16 +32,6 @@
 
  
 
-.contenedorBasquet{
-    display: grid;
-    background-color: none;
-    padding: 1em;
-    grid-template-columns: 400px 400px;
-    grid-template-rows: 580px 400px;
-    gap: 160px;
-    justify-content: space-around;
-    
-
     div:hover{
         border: 1px solid yellow;
     
@@ -60,15 +50,14 @@
 
 
     .contenedorBasquet__marc{
-        width: 260px;
-        height: 200px;
-        margin: 30px;
+        width: 280px;
+        height: 230px;
+
     }
 
     .contenedorBasquet__din{
-        width: 260px;
-        height: 200px;
-        margin: 30px;
+        width: 280px;
+        height: 230px;
     }
 
     .contenedorBasquet__videoBasquet{
@@ -79,13 +68,9 @@
     height: 100%;
 }
 
-.deportes-tenis{
-    width: 300px;
-    height: 300px;
-}
+
 
 .imgTenis{
-    width: 260px;
-    height: 200px;
-    margin: 30px;
+    width: 280px;
+    height: 230px;
 }
