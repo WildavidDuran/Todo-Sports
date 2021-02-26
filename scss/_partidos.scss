@@ -1,16 +1,27 @@
-
-/*
-.table th{
-    border: solid 2px;
-    background-color: #8f1d14;
-    color: #f1f1f1;
+.deportes{
+    font-size:px;
 }
 
-.table2{
-    width: 300px;
+.tablePar {
+    font-size: 15px;
+    font-family: 'Libre Franklin', sans-serif;;
+   
+   thead{
+    color: #ffd369;
+    background-color: #393e46;
+
+   }
 }
 
-.btnPartidos:hover{
-    background-color: #8f1d14;
-    color: white;
-}*/
+.btn{
+    background-color: #393e46;
+    color: #ffd369;
+}
+
+.tablePar2{
+    th{
+        color: #ffd369;
+        background-color: #393e46;
+     
+    }
+}

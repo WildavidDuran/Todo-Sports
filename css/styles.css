@@ -1,9 +1,10 @@
 * {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  font-family: sans-serif; }
 
 body {
-  background-color: black;
+  background-color: #eeeeee;
   font-size: 80.5%; }
 
 header {
@@ -39,11 +40,11 @@ header {
   font-weight: 300;
   color: white; }
 
-.todoSports {
-  font-family: 'Raleway', sans-serif;
-  color: black;
-  padding-block: 20px;
-  margin: 10px; }
+.navbar-dark .navbar-brand {
+  color: #222831; }
+
+.navbar-brand {
+  margin-left: 20px; }
 
 .wave {
   position: absolute;
@@ -60,13 +61,14 @@ header {
     margin-left: 10px;
 }
 */
-p {
-  font-size: 20px;
-  margin: 5px; }
+h1, h2, h3, h4, h5, h6 {
+  margin-left: 5px; }
 
-article {
-  font-size: 20px;
-  font-family: 'Oswald', sans-serif;
+article, p {
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'Libre Franklin', sans-serif;
+  line-height: 20px;
   margin: 5px; }
 
 footer {
@@ -170,22 +172,35 @@ footer {
       #carouselExampleCaptions img h5 p {
         text-shadow: 0.1em 0.1em 0.05em #333; }
 
-.noticias img {
-  width: 200px;
-  height: 150px;
-  overflow: hidden;
-  margin-bottom: 10px; }
+.carousel-index {
+  background-color: #eeeeee; }
+
+.noticiasP {
+  background-color: #eeeeee;
+  margin-left: 20px;
+  margin-right: 20px; }
+
+.noticiasH {
+  background-color: #393e46;
+  color: white; }
+  .noticiasH img {
+    width: 200px;
+    height: 150px;
+    overflow: hidden;
+    margin-bottom: 10px; }
 
 .tablaIN {
   color: white;
   margin-right: 20px;
   margin-left: 20px; }
   .tablaIN thead {
-    background-color: black; }
+    color: #ffd369;
+    background-color: #393e46; }
     .tablaIN thead .col {
       background-color: black; }
 
 .tablaIN1 {
+  background-color: #222831;
   color: white; }
 
 .d-flex img {
@@ -205,7 +220,7 @@ footer {
 
 p a {
   text-decoration: none;
-  color: white; }
+  color: black; }
 
 p a:hover {
   text-decoration: underline;
@@ -247,21 +262,24 @@ p a:hover {
   width: 280px;
   height: 230px; }
 
-/*
-.table th{
-    border: solid 2px;
-    background-color: #8f1d14;
-    color: #f1f1f1;
-}
+.deportes {
+  font-size: px; }
 
-.table2{
-    width: 300px;
-}
+.tablePar {
+  font-size: 15px;
+  font-family: 'Libre Franklin', sans-serif; }
+  .tablePar thead {
+    color: #ffd369;
+    background-color: #393e46; }
 
-.btnPartidos:hover{
-    background-color: #8f1d14;
-    color: white;
-}*/
+.btn {
+  background-color: #393e46;
+  color: #ffd369; }
+
+.tablePar2 th {
+  color: #ffd369;
+  background-color: #393e46; }
+
 .contenedorPublicidad {
   margin-top: 50px;
   display: grid;
@@ -270,7 +288,7 @@ p a:hover {
   font-size: 20px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   text-align: center;
-  background-image: radial-gradient(#f1f1f1, #8f1d14); }
+  background-image: radial-gradient(#ffd369, #ffd369); }
 
 .publicidad {
   margin-top: 20px; }
@@ -285,21 +303,3 @@ p a:hover {
   100% {
     opacity: 1; } }
 
-@media only screen and (max-width: 600px) {
-  body {
-    background-color: salmon; }
-  .menu {
-    background: white;
-    flex-direction: column;
-    color: black; }
-  .menu ul {
-    flex-direction: column; } }
-
-.mainContacto {
-  margin-top: 60px; }
-
-.sectionContacto {
-  margin: 20px; }
-
-.tituloContacto {
-  margin-top: 5px; }

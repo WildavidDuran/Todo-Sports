@@ -27,7 +27,21 @@
 
 }
 
-.noticias {
+.carousel-index{
+    background-color: #eeeeee;
+}
+
+.noticiasP{
+    background-color: #eeeeee;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+.noticiasH {
+    background-color: #393e46;
+    color: white;
+
     
     img{
     width: 200px;
@@ -38,12 +52,14 @@
     }
 }
 
+
 .tablaIN {
     color: white;
     margin-right: 20px;
     margin-left: 20px;
     thead{
-        background-color: black;
+        color: #ffd369;
+        background-color: #393e46;
         .col {
             background-color: black;
         }
@@ -51,6 +67,7 @@
 }
 
 .tablaIN1{
+    background-color: #222831;
     color: white;
 }
 

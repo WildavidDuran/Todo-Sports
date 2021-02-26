@@ -37,13 +37,15 @@ header{
     color: white;
 }
 
-.todoSports{
-    font-family: 'Raleway', sans-serif;
-    color: black;
-    padding-block: 20px;
-    margin: 10px
+.navbar-dark .navbar-brand {
+    color: #222831;
+}
+
+.navbar-brand{
+    margin-left: 20px;
 
 }
+
 
 .wave{
     position: absolute;
