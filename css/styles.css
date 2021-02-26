@@ -3,7 +3,7 @@
   padding: 0; }
 
 body {
-  background-color: #cfd8dc;
+  background-color: black;
   font-size: 80.5%; }
 
 header {
@@ -170,59 +170,23 @@ footer {
       #carouselExampleCaptions img h5 p {
         text-shadow: 0.1em 0.1em 0.05em #333; }
 
-.SeccionNoticias {
-  display: inline-flex; }
-  .SeccionNoticias h2 {
-    text-align: start;
-    margin-top: 5px; }
-
-.DivInicio1 {
-  border: groove;
-  border-style: groove  black;
-  display: inline-block;
-  padding: 5px;
-  font-size: 15px;
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 20px;
-  flex-direction: row; }
-
-.DivInicio1__fotoRM {
+.noticias img {
   width: 200px;
   height: 150px;
   overflow: hidden;
-  display: inline-block; }
+  margin-bottom: 10px; }
 
-.DivInicio2 {
-  border: groove;
-  border-style: groove  black;
-  display: inline-block;
-  padding: 5px;
-  font-size: 15px;
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 20px;
-  justify-content: space-between; }
+.tablaIN {
+  color: white;
+  margin-right: 20px;
+  margin-left: 20px; }
+  .tablaIN thead {
+    background-color: black; }
+    .tablaIN thead .col {
+      background-color: black; }
 
-.DivInicio2__tituloVardy {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
-
-.DivInicio3 {
-  border: groove;
-  border-style: groove  black;
-  display: inline-block;
-  padding: 5px;
-  font-size: 15px;
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 20px;
-  justify-content: space-between; }
-
-.DivInicio3__salahFoto {
-  width: 200px;
-  height: 150px;
-  overflow: hidden;
-  display: inline-block; }
-
-.noti-seccion {
-  text-align: start; }
+.tablaIN1 {
+  color: white; }
 
 .d-flex img {
   width: 50px; }
@@ -263,22 +227,6 @@ p a:hover {
   width: 270px;
   height: 200px; }
 
-.contenedorBasquet {
-  display: grid;
-  background-color: none;
-  padding: 1em;
-  grid-template-columns: 400px 400px;
-  grid-template-rows: 580px 400px;
-  gap: 160px;
-  justify-content: space-around; }
-  .contenedorBasquet div:hover {
-    border: 1px solid yellow; }
-    .contenedorBasquet div:hover div {
-      border: 1px solid;
-      margin: 20px;
-      background-color: #ecf0f1;
-      overflow: hidden; }
-
 /*======FOTOS Y VIDEOS DE NOTICIAS=======*/
 .contenedorBasquet__marc {
   width: 280px;
@@ -299,18 +247,21 @@ p a:hover {
   width: 280px;
   height: 230px; }
 
-.table th {
-  border: solid 2px;
-  background-color: #8f1d14;
-  color: #f1f1f1; }
+/*
+.table th{
+    border: solid 2px;
+    background-color: #8f1d14;
+    color: #f1f1f1;
+}
 
-.table2 {
-  width: 300px; }
+.table2{
+    width: 300px;
+}
 
-.btnPartidos:hover {
-  background-color: #8f1d14;
-  color: white; }
-
+.btnPartidos:hover{
+    background-color: #8f1d14;
+    color: white;
+}*/
 .contenedorPublicidad {
   margin-top: 50px;
   display: grid;

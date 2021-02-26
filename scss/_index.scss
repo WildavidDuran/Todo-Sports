@@ -27,80 +27,31 @@
 
 }
 
-.SeccionNoticias{
-    display: inline-flex;
-
-
-
-    h2{
-        text-align: start;
-        margin-top: 5px;
-
-    }
-}
-
-.DivInicio1 {
-    border: groove;
-    border-style: groove  black;
-    display: inline-block;
-    padding: 5px;
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 20px;
-    flex-direction: row;
+.noticias {
     
-
-}
-
-.DivInicio1__fotoRM{
+    img{
     width: 200px;
     height: 150px;
     overflow: hidden;
-    display: inline-block;
-}
+    margin-bottom: 10px;
 
-.DivInicio2{
-    border: groove;
-    border-style: groove  black;
-    display: inline-block;
-    padding: 5px;
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 20px;
-    justify-content: space-between;
-    
-    
-}
-
-    .DivInicio2__tituloVardy{
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
-
-    
-.DivInicio3{
-    border: groove;
-    border-style: groove  black;
-    display: inline-block;
-    padding: 5px;
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 20px;
-    justify-content: space-between;
-    
-    
 }
 
-    .DivInicio3__salahFoto{
-        width: 200px;
-        height: 150px;
-        overflow: hidden;
-        display: inline-block;
+.tablaIN {
+    color: white;
+    margin-right: 20px;
+    margin-left: 20px;
+    thead{
+        background-color: black;
+        .col {
+            background-color: black;
+        }
     }
-
-
-
-
-.noti-seccion{
-    text-align: start;
 }
+
+.tablaIN1{
+    color: white;
+}
+
 
